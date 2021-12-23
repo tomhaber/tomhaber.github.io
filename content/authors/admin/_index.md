@@ -20,9 +20,10 @@ organizations:
 
 # Interests to show in About widget
 interests:
-- High-performance Computing
-- Computational Science
-- Machine Learning
+- Statistical modelling and computational science
+- Combination of machine learning and statistical/physical modelling
+- High-performance parallel algorithms
+- Programming languages for high-performance computing
 
 # Education to show in About widget
 education:
@@ -30,6 +31,9 @@ education:
   - course: PhD in Computer Science
     institution: Hasselt University
     year: 2015
+  - course: Licentiate of Applied Computer Sciences
+    institution: Limburgs Universitair Centrum
+    year: 2004
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
