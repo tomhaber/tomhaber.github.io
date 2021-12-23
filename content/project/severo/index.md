@@ -17,7 +17,7 @@ image:
   focal_point: Smart
 
 links:
-- icon: bitbucket
+- icon: github
   icon_pack: fab
   name: Source code
   url: https://github.com/ExaScience/Severo.jl
