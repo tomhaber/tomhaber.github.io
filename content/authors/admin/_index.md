@@ -6,7 +6,7 @@ title: Tom Haber
 superuser: true
 
 # Role/position/tagline
-role: Post-doctoral Researcher
+role: Post-doctoral Researcher, Visiting Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
