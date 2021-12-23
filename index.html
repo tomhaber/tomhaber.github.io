@@ -68,19 +68,13 @@
 <a class=nav-link href=/#about data-target=#about><span>Home</span></a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=/#posts data-target=#posts><span>Posts</span></a>
+<a class=nav-link href=/project><span>Projects</span></a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=/#projects data-target=#projects><span>Projects</span></a>
+<a class=nav-link href=/talks><span>Talks</span></a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=/#talks data-target=#talks><span>Talks</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=/#featured data-target=#featured><span>Publications</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=/#contact data-target=#contact><span>Contact</span></a>
+<a class=nav-link href=/publication><span>Publications</span></a>
 </li>
 <li class=nav-item>
 <a class=nav-link href=/uploads/resume.pdf><span>CV</span></a>
@@ -152,9 +146,10 @@
 <div class=col-md-5>
 <div class=section-subheading>Interests</div>
 <ul class="ul-interests mb-0">
-<li>High-performance Computing</li>
-<li>Computational Science</li>
-<li>Machine Learning</li>
+<li>Statistical modelling and computational science</li>
+<li>Combination of machine learning and statistical/physical modelling</li>
+<li>High-performance parallel algorithms</li>
+<li>Programming languages for high-performance computing</li>
 </ul>
 </div>
 <div class=col-md-7>
@@ -165,6 +160,13 @@
 <div class=description>
 <p class=course>PhD in Computer Science, 2015</p>
 <p class=institution>Hasselt University</p>
+</div>
+</li>
+<li>
+<i class="fa-li fas fa-graduation-cap"></i>
+<div class=description>
+<p class=course>Licentiate of Applied Computer Sciences, 2004</p>
+<p class=institution>Limburgs Universitair Centrum</p>
 </div>
 </li>
 </ul>
@@ -502,23 +504,23 @@ Sep 2008
 </div>
 </div>
 <div class="isotope projects-container row js-layout-row">
-<div class="col-12 isotope-item js-id-Deep-Learning">
+<div class="col-12 isotope-item js-id-Non-linear js-id-Mixed-effects-models js-id-High-Performance-Computing js-id-Parallel">
 <div class="media stream-item view-compact">
 <div class=media-body>
 <div class="section-subheading article-title mb-0 mt-0">
-<a href=/project/example/>Example Project</a>
+<a href=/project/diffmem/>DiffMEM</a>
 </div>
-<a href=/project/example/ class=summary-link>
+<a href=/project/diffmem/ class=summary-link>
 <div class=article-style>
-An example of using the in-built project page.
+Scalable Differential equation based Mixed-Effects modelling
 </div>
 </a>
 <div class="stream-meta article-metadata">
 </div>
 </div>
 <div class=ml-3>
-<a href=/project/example/>
-<img src=/project/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x0_resize_q75_h2_lanczos.webp height=84 width=150 alt="Example Project" loading=lazy>
+<a href=/project/diffmem/>
+<img src=/project/diffmem/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_224363_150x0_resize_q75_h2_lanczos.webp height=84 width=150 alt=DiffMEM loading=lazy>
 </a>
 </div>
 </div>
@@ -540,31 +542,47 @@ An example of using the in-built project page.
 <div class="card-simple view-card">
 <div class=article-metadata>
 <div>
-<span class=author-highlighted>
-Tom Haber</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>
-Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>
+<span>
+Balazs Nemeth</span>, <span class=author-highlighted>
+Tom Haber</span>, <span>
+Jori Liesenborgs</span>, <span>
+Win Lamotte</span>
 </div>
 <span class=article-date>
-July 2013
+May 2020
 </span>
 <span class=middot-divider></span>
 <span class=pub-publication>
-In <em>ICW</em>
+In <em>CCGRID</em>
 </span>
 </div>
-<a href=/publication/example/>
+<a href=/publication/autopar/>
 <div class=img-hover-zoom>
-<img src=/publication/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_312700_808x455_fill_q75_h2_lanczos_smart1.webp height=455 width=808 class=article-banner alt="An example conference paper" loading=lazy>
+<img src=/publication/autopar/featured_hu366f7ae128f20bd4a1f965d962d5b416_82092_808x455_fill_q75_h2_lanczos_smart1.webp height=455 width=808 class=article-banner alt="Automatic Parallelization of Probabilistic Models with Varying Load Imbalance" loading=lazy>
 </div>
 </a>
 <div class="section-subheading article-title mb-1 mt-3">
-<a href=/publication/example/>An example conference paper</a>
+<a href=/publication/autopar/>Automatic Parallelization of Probabilistic Models with Varying Load Imbalance</a>
 </div>
-<a href=/publication/example/ class=summary-link>
-<div class=article-style>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.</p>
 </div>
-</a>
+<div class="card-simple view-card">
+<div class=article-metadata>
+<div>
+<span class=author-highlighted>
+Tom Haber</span>, <span>
+Frank van Reeth</span>
+</div>
+<span class=article-date>
+May 2020
+</span>
+<span class=middot-divider></span>
+<span class=pub-publication>
+EuroPAR
+</span>
+</div>
+<div class="section-subheading article-title mb-1 mt-3">
+<a href=/publication/improving/>Improving the runtime performance of non-linear mixed-effects model estimation</a>
+</div>
 </div>
 </div>
 </div>
