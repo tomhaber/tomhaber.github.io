@@ -13,7 +13,7 @@ date: "2020-10-23"
 external_link: ""
 
 image:
-  caption:
+  caption: copyright Illumina
   focal_point: Smart
 
 links:

@@ -58,4 +58,5 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
 - diffmem
+- hpc
 ---
