@@ -141,4 +141,5 @@ color: navy;
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/tomhaber/PAPI.jl" target="_blank" rel="noopener">PAPI.jl&lt;/a>: Julia bindings for the PAPI hardware performance counters library and high-level interface&lt;/li>
 &lt;li>&lt;a href="https://github.com/tomhaber/MPIExecutor.jl" target="_blank" rel="noopener">MPIExecutor.jl&lt;/a>: Parallel programming model with futures build on MPI&lt;/li>
+&lt;li>&lt;a href="https://github.com/tomhaber/gdb_eigen.py" target="_blank" rel="noopener">gdb_eigen.py&lt;/a>: gdb support for Eigen types and routines to read/write memory to hdf5&lt;/li>
 &lt;/ul></description></item></channel></rss>
