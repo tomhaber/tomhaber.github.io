@@ -10,3 +10,4 @@
 
 * [PAPI.jl](https://github.com/tomhaber/PAPI.jl): Julia bindings for the PAPI hardware performance counters library and high-level interface
 * [MPIExecutor.jl](https://github.com/tomhaber/MPIExecutor.jl): Parallel programming model with futures build on MPI
+* [gdb_eigen.py](https://github.com/tomhaber/gdb_eigen.py): gdb support for Eigen types and routines to read/write memory to hdf5
