@@ -1,0 +1,10 @@
+# Font style metadata
+name = "Montserrat"
+
+# Optional Google font URL
+google_fonts = "family=Montserrat:wght@200;400"
+
+# Font families
+heading_font = "Montserrat"
+body_font = "Courier New"
+nav_font = "Courier New"

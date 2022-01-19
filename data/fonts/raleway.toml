@@ -1,0 +1,10 @@
+# Font style metadata
+name = "Raleway"
+
+# Optional Google font URL
+google_fonts = "family=Lusitana:wght@200;400&family=Raleway:wght@400;700"
+
+# Font families
+heading_font = "Raleway"
+body_font = "Lusitana"
+nav_font = "Lusitana"
