@@ -15,20 +15,20 @@
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin=anonymous media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
-<link rel=stylesheet href=/css/wowchemy.7edcc6b5f57976a8bb654c426885e267.css>
+<link rel=stylesheet href=/css/wowchemy.74f54df230873940912ddb15fc6812fc.css>
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_180x180_fill_lanczos_center_3.png>
 <link rel=canonical href=https://tomhaber.github.io/publication/improving/>
-<meta property="twitter:card" content="summary">
+<meta property="twitter:card" content="summary_large_image">
 <meta property="og:site_name" content="Tom Haber">
 <meta property="og:url" content="https://tomhaber.github.io/publication/improving/">
 <meta property="og:title" content="Improving the runtime performance of non-linear mixed-effects model estimation | Tom Haber">
-<meta property="og:description" content="Non-linear mixed effects models (NLMEM) are frequently used in drug development for pharmacokinetic (PK) and pharmacokinetic-pharmacodynamic (PK-PD) analyses. Parameter estimation for these models can be time-consuming due to the need for numerical integration. Additionally, the structural model is often expressed using differential equations requiring computationally intensive time-stepping ODE solvers. Overall, this often leads to long computation times in the order of hours or even days. Combining the right mathematical tools as well as techniques from computer science, the computational cost can be significantly reduced. In this paper, several approaches are detailed for improving the performance of parameter estimation for NLMEM. Applying these, often easy, techniques can lead to an order of magnitude speedup."><meta property="og:image" content="https://tomhaber.github.io/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_512x512_fill_lanczos_center_3.png">
-<meta property="twitter:image" content="https://tomhaber.github.io/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+<meta property="og:description" content="Non-linear mixed effects models (NLMEM) are frequently used in drug development for pharmacokinetic (PK) and pharmacokinetic-pharmacodynamic (PK-PD) analyses. Parameter estimation for these models can be time-consuming due to the need for numerical integration. Additionally, the structural model is often expressed using differential equations requiring computationally intensive time-stepping ODE solvers. Overall, this often leads to long computation times in the order of hours or even days. Combining the right mathematical tools as well as techniques from computer science, the computational cost can be significantly reduced. In this paper, several approaches are detailed for improving the performance of parameter estimation for NLMEM. Applying these, often easy, techniques can lead to an order of magnitude speedup."><meta property="og:image" content="https://tomhaber.github.io/publication/improving/featured.jpg">
+<meta property="twitter:image" content="https://tomhaber.github.io/publication/improving/featured.jpg"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2020-05-01T00:00:00+00:00">
 <meta property="article:modified_time" content="2020-05-01T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://tomhaber.github.io/publication/improving/"},"headline":"Improving the runtime performance of non-linear mixed-effects model estimation","datePublished":"2020-05-01T00:00:00Z","dateModified":"2020-05-01T00:00:00Z","author":{"@type":"Person","name":"Tom Haber"},"publisher":{"@type":"Organization","name":"Tom Haber","logo":{"@type":"ImageObject","url":"https://tomhaber.github.io/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_192x192_fill_lanczos_center_3.png"}},"description":"Non-linear mixed effects models (NLMEM) are frequently used in drug development for pharmacokinetic (PK) and pharmacokinetic-pharmacodynamic (PK-PD) analyses. Parameter estimation for these models can be time-consuming due to the need for numerical integration. Additionally, the structural model is often expressed using differential equations requiring computationally intensive time-stepping ODE solvers. Overall, this often leads to long computation times in the order of hours or even days. Combining the right mathematical tools as well as techniques from computer science, the computational cost can be significantly reduced. In this paper, several approaches are detailed for improving the performance of parameter estimation for NLMEM. Applying these, often easy, techniques can lead to an order of magnitude speedup."}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://tomhaber.github.io/publication/improving/"},"headline":"Improving the runtime performance of non-linear mixed-effects model estimation","image":["https://tomhaber.github.io/publication/improving/featured.jpg"],"datePublished":"2020-05-01T00:00:00Z","dateModified":"2020-05-01T00:00:00Z","author":{"@type":"Person","name":"Tom Haber"},"publisher":{"@type":"Organization","name":"Tom Haber","logo":{"@type":"ImageObject","url":"https://tomhaber.github.io/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_192x192_fill_lanczos_center_3.png"}},"description":"Non-linear mixed effects models (NLMEM) are frequently used in drug development for pharmacokinetic (PK) and pharmacokinetic-pharmacodynamic (PK-PD) analyses. Parameter estimation for these models can be time-consuming due to the need for numerical integration. Additionally, the structural model is often expressed using differential equations requiring computationally intensive time-stepping ODE solvers. Overall, this often leads to long computation times in the order of hours or even days. Combining the right mathematical tools as well as techniques from computer science, the computational cost can be significantly reduced. In this paper, several approaches are detailed for improving the performance of parameter estimation for NLMEM. Applying these, often easy, techniques can lead to an order of magnitude speedup."}</script>
 <title>Improving the runtime performance of non-linear mixed-effects model estimation | Tom Haber</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=44d8b8c0d9ce1b77d00300798e171a3d>
@@ -70,7 +70,7 @@
 <a class=nav-link href=/project><span>Projects</span></a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=/#featured><span>Publications</span></a>
+<a class="nav-link active" href=/publication><span>Publications</span></a>
 </li>
 <li class=nav-item>
 <a class=nav-link href=/software><span>Software</span></a>
@@ -107,6 +107,11 @@ Project
 <a class="btn btn-outline-primary btn-page-header" href=https://doi.org/10.1007/978-3-030-48340-1_43 target=_blank rel=noopener>
 DOI
 </a>
+</div>
+</div>
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:703px;max-height:332px>
+<div style=position:relative>
+<img src=/publication/improving/featured_hu70f363e36bc17ad91c55f5e51cb5091b_29162_720x2500_fit_q75_h2_lanczos.webp width=703 height=332 alt class=featured-image>
 </div>
 </div>
 <div class=article-container>

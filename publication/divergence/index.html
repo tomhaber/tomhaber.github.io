@@ -15,20 +15,20 @@
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin=anonymous media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
-<link rel=stylesheet href=/css/wowchemy.7edcc6b5f57976a8bb654c426885e267.css>
+<link rel=stylesheet href=/css/wowchemy.74f54df230873940912ddb15fc6812fc.css>
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_180x180_fill_lanczos_center_3.png>
 <link rel=canonical href=https://tomhaber.github.io/publication/divergence/>
-<meta property="twitter:card" content="summary">
+<meta property="twitter:card" content="summary_large_image">
 <meta property="og:site_name" content="Tom Haber">
 <meta property="og:url" content="https://tomhaber.github.io/publication/divergence/">
 <meta property="og:title" content="Improving ODE Integration on Graphics Processing Units by Reducing Thread Divergence | Tom Haber">
-<meta property="og:description" content="Ordinary differential equations are widely used for the mathematical modeling of complex systems in biology and statistics. Since the analysis of such models needs to be performed using numerical integration, many applications can be gravely limited by the computational cost. This paper present a general-purpose integrator that runs massively parallel on graphics processing units. By minimizing thread divergence and bundling similar tasks using linear regression, execution time can be reduced by 40–80% when compared to a naive GPU implementation. Compared to a 36-core CPU implementation, a 150 fold runtime improvement is measured."><meta property="og:image" content="https://tomhaber.github.io/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_512x512_fill_lanczos_center_3.png">
-<meta property="twitter:image" content="https://tomhaber.github.io/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+<meta property="og:description" content="Ordinary differential equations are widely used for the mathematical modeling of complex systems in biology and statistics. Since the analysis of such models needs to be performed using numerical integration, many applications can be gravely limited by the computational cost. This paper present a general-purpose integrator that runs massively parallel on graphics processing units. By minimizing thread divergence and bundling similar tasks using linear regression, execution time can be reduced by 40–80% when compared to a naive GPU implementation. Compared to a 36-core CPU implementation, a 150 fold runtime improvement is measured."><meta property="og:image" content="https://tomhaber.github.io/publication/divergence/featured.jpg">
+<meta property="twitter:image" content="https://tomhaber.github.io/publication/divergence/featured.jpg"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2019-06-01T00:00:00+00:00">
 <meta property="article:modified_time" content="2019-06-01T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://tomhaber.github.io/publication/divergence/"},"headline":"Improving ODE Integration on Graphics Processing Units by Reducing Thread Divergence","datePublished":"2019-06-01T00:00:00Z","dateModified":"2019-06-01T00:00:00Z","author":{"@type":"Person","name":"Thomas Kovac"},"publisher":{"@type":"Organization","name":"Tom Haber","logo":{"@type":"ImageObject","url":"https://tomhaber.github.io/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_192x192_fill_lanczos_center_3.png"}},"description":"Ordinary differential equations are widely used for the mathematical modeling of complex systems in biology and statistics. Since the analysis of such models needs to be performed using numerical integration, many applications can be gravely limited by the computational cost. This paper present a general-purpose integrator that runs massively parallel on graphics processing units. By minimizing thread divergence and bundling similar tasks using linear regression, execution time can be reduced by 40–80% when compared to a naive GPU implementation. Compared to a 36-core CPU implementation, a 150 fold runtime improvement is measured."}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://tomhaber.github.io/publication/divergence/"},"headline":"Improving ODE Integration on Graphics Processing Units by Reducing Thread Divergence","image":["https://tomhaber.github.io/publication/divergence/featured.jpg"],"datePublished":"2019-06-01T00:00:00Z","dateModified":"2019-06-01T00:00:00Z","author":{"@type":"Person","name":"Thomas Kovac"},"publisher":{"@type":"Organization","name":"Tom Haber","logo":{"@type":"ImageObject","url":"https://tomhaber.github.io/media/icon_hu6d9b43a3bb6ad0c3e22efc500208d687_3520_192x192_fill_lanczos_center_3.png"}},"description":"Ordinary differential equations are widely used for the mathematical modeling of complex systems in biology and statistics. Since the analysis of such models needs to be performed using numerical integration, many applications can be gravely limited by the computational cost. This paper present a general-purpose integrator that runs massively parallel on graphics processing units. By minimizing thread divergence and bundling similar tasks using linear regression, execution time can be reduced by 40–80% when compared to a naive GPU implementation. Compared to a 36-core CPU implementation, a 150 fold runtime improvement is measured."}</script>
 <title>Improving ODE Integration on Graphics Processing Units by Reducing Thread Divergence | Tom Haber</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=65afc8122d0078d2f553efc75d66825b>
@@ -70,7 +70,7 @@
 <a class=nav-link href=/project><span>Projects</span></a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=/#featured><span>Publications</span></a>
+<a class="nav-link active" href=/publication><span>Publications</span></a>
 </li>
 <li class=nav-item>
 <a class=nav-link href=/software><span>Software</span></a>
@@ -109,6 +109,11 @@ Project
 <a class="btn btn-outline-primary btn-page-header" href=https://doi.org/10.1007/978-3-030-22744-9_35 target=_blank rel=noopener>
 DOI
 </a>
+</div>
+</div>
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:316px>
+<div style=position:relative>
+<img src=/publication/divergence/featured_hu274771ee92bbfac38cc9ca518cca2fa4_32242_720x2500_fit_q75_h2_lanczos.webp width=720 height=316 alt class=featured-image>
 </div>
 </div>
 <div class=article-container>
