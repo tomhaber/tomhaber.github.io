@@ -12,8 +12,10 @@ authors:
 - Michael Goesele
 - Hendrik P. A. Lensch
 
-date: "2020-05-01"
+date: "2009-06-20"
 doi: "10.1109/CVPR.2009.5206753"
+
+publishDate: "2009-06-20"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
