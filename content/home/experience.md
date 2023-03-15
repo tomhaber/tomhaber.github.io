@@ -24,8 +24,8 @@ date_format: Jan 2006
 experience:
   - title: Post-doctoral Researcher and Visiting Professor (UHasselt)
     description: |2-
-      * privacy-preserving machine learning and AI
-      * scalable single cell sequencing
+      * Building the future of HPC and AI systems. Looking at the full-stack solution from System Architecture, runtime, CPU, accelerator and interconnect solutions up to software and applications.
+      * Technical co-leadership for architectural modelling and simulation
     company: imec
     company_logo: imec
     location: Leuven, Belgium
