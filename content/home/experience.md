@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Post-doctoral Researcher and Visiting Professor (UHasselt)
+  - title: Principal Member of Technical Staff and Visiting Professor (UHasselt)
     description: |2-
       * Building the future of HPC and AI systems. Looking at the full-stack solution from System Architecture, runtime, CPU, accelerator and interconnect solutions up to software and applications.
       * Technical co-leadership for architectural modelling and simulation
